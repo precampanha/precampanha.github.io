@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*box-shadow: 0 0 1px red;*/
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+        'Helvetica Neue', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: #0a9246;
+
+    .gerador_imagem {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 10px;
+        max-width: 500px;
+        gap: 16px;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #e2e1e1;
+        border-radius: 8px;
+        box-shadow: 0 2px 15px black;
+
+        h1 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+            background-color: #fdb813;
+            color: #fff;
+            padding: 8px;
+        }
+
+        p {
+            line-height: 1.2;
+            text-align: justify;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        button {
+            padding: 8px 16px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            color: #fff;
+            background-color: #0a9246;
+            transition: background 500ms ease-in-out;
+            &:hover {
+                cursor: pointer;
+                background-color: #065e2c;
+            }
+        }
+    }
+}
+
+#imagem {
+    width: 100%;
+}
+
+.btnImagem {
+    display: block;
+    padding: 8px 16px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0a9246;
+    transition: background 500ms ease-in-out;
+    &:hover {
+        cursor: pointer;
+        background-color: #065e2c;
+    }
+}
