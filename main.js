@@ -7,7 +7,7 @@ const cor = document.querySelector('#cor');
 let image;
 let overlay;
 overlay = new Image();
-overlay.src = './img/branco.png';
+overlay.src = './img/verde.png';
 
 cor.addEventListener('change', (e) => {
     e.preventDefault();
